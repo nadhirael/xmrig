@@ -14,6 +14,8 @@ git clone https://github.com/xmrig/xmrig
 cd xmrig
 mkdir build
 cd build
+wget https://raw.githubusercontent.com/nadhirael/xmrig/refs/heads/main/budal.sh
+chmod +x budal.sh
 
 # Konfigurasi dan kompilasi XMRig
 cmake -DWITH_HWLOC=OFF ..
